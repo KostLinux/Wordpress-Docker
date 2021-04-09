@@ -1,17 +1,19 @@
 # Wordpress Docker Compose For Local Web Site Development
 
-Setup wordpress development environment via docker-compose.
-
-By default it will save database mysql files to ./wp-db and wordpress files to ./wp-app
-
 Official repository: https://github.com/nezhar/wordpress-docker-compose/
+
+Setup wordpress development environment via docker-compose on your localhost.
+
+By default it will save:
+- Database (MySQL) files to ./wp-db 
+- Wordpress files to ./wp-app
 
 ## Configuration
 
 1. Clone this repository and change directory to repository
 
 	```
-	https://gitlab.com/itwebsolutions/docker-wordpress
+	git clone https://github.com/KostLinux/Wordpress-Docker
 	```
 
 2. Change wordpress database and mariadb database variables in .env
@@ -53,4 +55,4 @@ Changes did from repository:
 - Change db port listening from ${IP}:3306:3306 to 3306:3306
 
 ## Author
-* **Christofher** - *Initial work* - [KostLinux](https://github.com/KostLinux)
+* **Christofher** - *Edited work* - [KostLinux](https://github.com/KostLinux)
