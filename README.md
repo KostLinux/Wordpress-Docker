@@ -24,7 +24,6 @@ By default it will save:
 	IP=127.0.0.1
 	DB_ROOT_PASSWORD=wordpress_user_password
 	DB_NAME=wordpress
-
 	```
 
 ## Setup
